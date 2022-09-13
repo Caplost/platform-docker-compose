@@ -3,7 +3,7 @@ version: '3'
 services:
   #服务名称
   base-service:
-    #构建
+    # 构建
     build:
       context: ../../base
       dockerfile: Dockerfile
